@@ -28,7 +28,7 @@
         "args": "/S"
     },
     "bin": "scripts\\conda.exe",
-    "post_install": "conda config --set auto_activate_base false",
+    "post_install": "conda init",
     "checkver": {
         "url": "https://repo.continuum.io/miniconda",
         "re": "Miniconda3-([\\d.]+)-Windows"
